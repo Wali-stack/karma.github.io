@@ -1,0 +1,626 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: nunito sans;
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+    background: none;
+    color: black;
+}
+.nabbar{
+    background-color: whitesmoke;
+    display: flex;
+    height: 4rem;
+    padding-top:1.5rem ;
+    text-decoration: none;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+}
+
+
+.karma{
+    position: relative;
+    margin-left: 1rem;
+}
+.about{
+    position: absolute;
+    display: flex;
+    
+    right: 2rem;
+    font-size: 1.5rem; 
+    
+}
+.about ul li{
+    float: left;
+    /* background-color: black; */
+    /* color: white; */
+    width: 120px;
+    list-style: none;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.5rem;
+    text-align: center;
+    
+}
+.about ul li ul{
+    display: none;
+}
+.about ul li:hover>ul{
+    
+    display: block;
+}
+.about ul li ul li:hover{
+    color: red;
+}
+.about ul li ul li{
+    position: relative;
+    background-color: white;
+    color: #161b37;
+}
+.about ul li ul li ul{
+    position: absolute;
+    left: 120px;
+    top: 0%;
+}
+
+.hero{
+    display: flex;
+    flex-direction: row;
+    background-color:rgb(246, 218, 199,.1);
+}
+.manue{
+    padding-top: 13rem;
+    padding-left: 6rem;   
+    font-size: 4.5vh;
+    width: 50%;
+    height: 72vh;
+    /* background-color: aqua; */
+}
+.manue h1{
+    font-weight: 500;
+    font-family: sans-serif;
+}
+.img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100vh;
+    padding-right: 2rem;
+
+}
+.img1{
+    width: 90%;
+    height: 60%;
+}
+.pg{
+    margin-bottom: 1.5rem;
+    margin-top: 1rem;
+    font-size: 1.2rem;
+}
+.pg2{
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1.8rem;
+}
+.icon img{
+    opacity: .4;
+}
+.icon img:hover{
+    opacity: 2;
+}
+.hero1{
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+.sec2{
+    width: 80%;
+    /* background-color: blue; */
+}
+.sechadd{
+    font-size: 1.99rem;
+    font-weight: 500;
+    margin-top: 8rem;
+   }
+.ico{
+    display: flex;
+    justify-content: center;
+    margin-top: 2.5rem;
+} 
+.icn{
+    padding: 2rem;
+}
+.icn h2{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+} 
+.icn p{
+    font-size: 1.2rem;
+} 
+.father{
+    position: relative;
+    background-color: rgb(251, 136, 98);
+    width: 43%;
+    height: 66vh;
+    margin-left: 3rem;
+
+}
+.child1{
+    position: absolute;
+    top: 3%;
+    z-index: 10;
+    width: 20vw;
+    height: 45vh;
+}
+.child2{
+    position: absolute;
+    top: 35%;
+    left: 20%;
+    z-index: 20;
+    height: 45vh;
+    width: 25vw;
+}
+.child3{
+    position: absolute;
+    top: 22%;
+    right: -5%;
+    z-index: 30;
+    width: 19vw;
+    height: 43vh;
+}
+.granfather{
+    /* background-color: red; */
+    display: flex;
+    height: 66vh;
+    justify-content: center;
+    width: 100vw;
+    /* text-align: center; */
+
+}
+.secpg{
+   /* margin-left: -7%; */
+   /* background-color: blueviolet; */
+   width: 45%;
+   height: 49.9vh;
+   padding-left: 2rem;
+   padding-right: 1rem;
+   margin-top: 7rem;
+}
+.secpg p{
+    font-size:1.2rem ;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;   
+}
+.secpg a{
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-family: poppins;
+    font-weight: 400;
+    color: #ff5a5a;
+}
+.secpg h2{
+    font-size: 40px;
+}
+.secpg a:hover{
+    color: rgba(6, 4, 4, 0.516);
+}
+.xfather{
+    position: relative;
+    background-color: rgb(254,205,165);
+    width: 43%;
+    height: 66vh;
+   
+}
+.xchild1{
+    position: absolute;
+    width: 22vw;
+    height: 30vh;
+    top: 10%;
+    right: 12%;
+    z-index: 20;
+}
+.xchild2{
+    position: absolute;
+    width: 23vw;
+    height: 35vh;
+    top: 25%;
+    right: 40%;
+    z-index: 30;
+}
+.xchild3{
+    position: absolute;
+    width: 23vw;
+    height: 30vh;
+    z-index: 40;
+    top: 40%;
+    right: 1%;
+    
+}
+.hero2{
+    background-color:rgb(246, 218, 199,.1);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 137vh;
+}
+.herochild{
+    position: absolute;
+    right: 4rem;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    height: 100vh;
+    /* padding-left: 1rem; */
+
+}
+.pg1{
+    font-family: serif;
+    font-weight: 50;
+    position: absolute;
+    left: 6rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 18%;
+    height: 100vh;
+    top: 8rem;
+    
+   
+ }
+ .pg1 h1{
+    font-size: 3rem;
+ }
+ .pg1 p{
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+ }
+ .pg1 a{
+    font-size:1.5rem;
+    color: #ff5a5a;
+
+ }
+ .pg1 a:hover{
+    color:rgba(6, 4, 4, 0.516) ;
+ }
+.plan1{
+    position: absolute;
+    background-color: white;
+    z-index: .7;
+    left: -4%;
+    width: 50%;
+    height: 90vh;
+    margin-top: 9rem;
+    border-radius: 1rem;
+    box-shadow: 20px 30px 25px 5px gainsboro;
+   
+}
+.plan2{
+    position: absolute;
+    background-color: white;
+    z-index: .9;
+    right: 5%;
+    width: 55%;
+    height: 100vh;
+    margin-top: 7rem;
+    border-radius: 1rem;
+    box-shadow: 10px 10px 25px 5px gainsboro;
+}
+.planhead1{
+    background-color: gray;
+    font-family:serif;
+    text-align: center;
+    padding-top: 1.3rem;
+    
+    height: 3.2rem;
+    border-top-right-radius: .5rem;
+    border-top-left-radius: .5rem;
+}
+.planhead2{
+    background-color: rgba(254, 190, 165, 0.971);
+    font-family:serif;
+    text-align: center;
+    padding-top: 1.3rem;
+    height: 3.6rem;
+    border-top-right-radius: .5rem;
+    border-top-left-radius: .5rem;
+}
+.herochild hr{
+    opacity: .3;
+    width: 77%;
+    /* margin-left: 2.5rem; */
+}
+.herochild p{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 20px;
+    opacity: .7;
+    /* padding-left: 2.5rem; */
+    padding-right: 2.5rem;
+}
+.plan1 h1{
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    margin-top: 4.5rem;
+    
+}
+.plan2 h1{
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    margin-top: 2.5rem;
+    
+}
+.mnt p{
+    margin-top:1.5rem ;
+}
+.plan1pg{
+    padding-left: 2.5rem;
+}
+.planbtn{
+    font-size:1.7rem;
+    background-color: red;
+    color: white;
+    border-radius: 2rem;
+    width: 9rem;
+    height: 3.5rem;
+    border: 0;
+    font-size: 1.2rem;
+    opacity: .78;
+}
+.planbtnx{
+    font-size:1.7rem;
+    margin-left: 6.5rem; 
+    background-color: red;
+    color: white;
+    border-radius: 2rem;
+    width: 9rem;
+    height: 3.5rem;
+    border: 0;
+    font-size: 1.2rem;
+    opacity: .78;
+}
+.planbtn:hover{
+    background-color: rgb(3, 3, 3);
+}
+.pg3{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    margin-top: 2rem;
+  
+}
+.pg4{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+.pg4 h1{
+    font-size: 3rem;   
+}
+.pg4 p{
+   font-size: 1.2rem;
+   margin-left: 7rem;
+   margin-right: 7rem;
+}
+.pg3 h1{
+    font-size: 3rem;   
+}
+.pg3 p{
+   font-size: 1.2rem;
+   margin-left: 7rem;
+   margin-right: 7rem;
+}
+.dearfatherx{
+    display: flex;
+    justify-content: center;
+    margin-top: 3.5rem;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+.dearfather{
+    width: 35%;
+}
+.pic{
+    width: 50%;
+    
+}
+.dearfather h2{
+    font-size: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.dearfather p{
+    font-size: 1.2rem;
+   
+}
+.dearfather span{
+    color: #ff5a5a;
+    
+}
+.lastsec{
+    background-color: rgb(254,205,165);
+    height: 67vh;
+    display: flex;
+   
+}
+.lastsec button{
+    margin-left: 40rem;
+    margin-top: 2rem;
+   
+
+}
+.footer{
+    background-color: #161b37;
+    display: flex;
+   padding-top: 8rem;
+   
+    
+    font-size: 1.2rem;
+    color: white;
+    height: 68vh;
+    display: flex;
+    width: 100vw;
+}
+.fchild1{
+   width: 28%;
+    font-size: 1.2rem;
+    padding-left: 10rem;
+}
+.fchild2{
+    width: 14%;
+}
+.fchild3{
+    width: 14%;
+}
+.fchild4{
+    width: 14%;
+}
+.fchild5{
+    width: 28%;
+    margin-right: 5rem;
+}
+.fchild2 p{
+    margin-top: 1.5rem;
+}
+.fchild3 p{
+    margin-top: 1.5rem;
+}
+.fchild4 p{
+    margin-top: 1.5rem;
+}
+.fchild5 p{
+    margin-top: 1.5rem;
+}
+.fchild5 input{
+    border-radius: 2rem;
+    height: 3.5rem;
+    width: 18.5rem;
+    font-size: 1.2rem;
+    border-style: none;
+    padding-left: 1.2rem;
+   
+}
+.fchild5 button{
+    border-radius: 2rem;
+    height: 3.5rem;
+    width: 20rem;
+    margin-top: 1rem;
+    background-color: #ff5a5a;
+    color: white;
+    font-size: 1.2rem;
+}
+.fchild5 button:hover{
+    background-color: white;
+    color: #ff5a5a;
+}
+.socialicn{
+    display: flex;
+    justify-content: space-between;
+    width: 45%;
+}
+.pic img{
+    width: 90%;
+    height: 60%;
+}
+
+@media (max-width :1024px) {
+    .manue{
+        margin-top: -5rem;
+        font-size: 1rem;
+       }
+       .sechadd{
+        font-size: 1.3rem;
+        font-weight: 500;
+        margin-top: 8rem;
+       }
+       .granfather{
+        margin-top: 2rem;
+       }
+       .father{
+        margin-top: 4rem;
+       }
+       .pg1 h1{
+        font-size: 2.5rem;
+       }
+       .pg1 p{
+        font-size: 1.3rem;
+       }
+       .pg1 a{
+        font-size: 1.2rem;
+       }
+       .plan1{
+        height: 112vh;
+       }
+       .hero2{
+        height: 170vh;
+       }
+       .plan2{
+        height:125vh;
+       }
+       .planbtnx{
+        margin-left: 2rem;
+        width: 7rem;
+        height: 2.5rem;
+       }
+       .dearfather p{
+        font-size: 1rem;
+       }
+       .dearfather h2{
+        font-size: 1.7rem;
+       }
+       .pg4 .planbtn{
+        margin-right: auto;
+        margin-left: auto;
+       }
+       .fchild1{
+        width: 22%;
+         font-size: 1rem;
+         padding-left: 6rem;
+     }
+     .fchild5{
+        width: 20%;
+     }
+       .footer p{
+        font-size: 1rem;
+       }
+       .footer h2{
+        font-size: 1.5rem;
+       }
+       .fchild5 input{
+        width: 14rem;
+        height: 2.7rem;
+       }
+       .fchild5 button{
+        width: 15rem;
+        height: 2.7rem;
+       }
+       .n1{
+        margin-right: 2rem;
+       }
+       .planbtn{
+        width: 7rem;
+        height: 2.5rem;
+       }
+      
+       
+}
+
+
+
+
+
+
